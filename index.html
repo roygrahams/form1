@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets make form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <form action="submit" method="post">
+        <h3>Please fill-out the information below:</h3>
+        <label for="name">FIRST NAME: </label>
+        <input type="text" name="first" value="" id="name" required>
+        <br>
+        <label for="last">LAST NAME: </label>
+        <input type="text" name="last" value="" id="last" required>
+        <br>
+        <label for="mail">EMAIL: </label>
+        <input type="email" name="mail" value="" id="mail" required>
+        <br>
+        <label for="pass">PASSWORD: </label>
+        <input type="password" name="password" value="" id="pass" required>
+        <br>
+        <label for="birth">DATE OF BIRTH: </label>
+        <input type="date" name="birth" value="" id="birth" required>
+        <br>
+        <input class="submit" type="submit" value="submit">
+    </form>
+</body>
+
+</html>

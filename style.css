@@ -1,0 +1,29 @@
+form {
+    border: 1px solid red;
+    padding: 30px 20px;
+    margin: 20px 30px;
+    background: bisque;
+    width: 50%;
+
+}
+
+h3 {
+    border: 1px solid black;
+    background: hsla(160, 100%, 80%, 0.5);
+    padding: 10px 20px;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+input.submit {
+    background: hsla(0, 100%, 80%, 0.6);
+    
+}
+
+input.submit:hover {
+    background: white;
+}
+
+h3 {
+    opacity: ;;
+}
